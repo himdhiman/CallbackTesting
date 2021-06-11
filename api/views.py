@@ -10,6 +10,6 @@ def getData(request):
     if(request.method == "POST"):
         data = json.loads(request.body.decode())
         print(data)
-        return HttpResponse("OK")
+        return HttpResponse("This is a bot")
 
 
